@@ -92,7 +92,7 @@ textarea {
 header {
   display: flex;
   justify-content: center;
-}
+} 
 
 footer {
   display: flex;
@@ -136,7 +136,7 @@ header .content-wrapper {
 
 .features .features-items {
   display: flex;
-  justify-content: center;
+  justify-content: center; 
   align-items: flex-start;
 }
 
@@ -155,17 +155,17 @@ header .content-wrapper {
   justify-content: center;
 }
 
-.faq{
+.faq {
   display: flex;
   justify-content: center;
 }
 
-.faq .content-wrapper{
+.faq .content-wrapper { 
   display: flex;
   justify-content: center;
   align-items: flex-start;
-
 }
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
