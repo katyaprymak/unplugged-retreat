@@ -332,6 +332,127 @@ header .content-wrapper {
    These examples override the primary ('mobile first') styles.
    Modify as content requires.
    ========================================================================== */
+@media only screen and (min-width: 768px) {
+/* General styles */
+
+.content-wrapper {
+  max-width: 640px;
+  margin: 100px 0;
+}
+
+/* Header */ 
+.header {
+
+}
+
+.header .content-wrapper {
+  /*justify-content: space-between;
+  width: ; */
+}
+
+.header nav {
+  width: ;
+}
+
+.header nav ul {
+  width: ;
+}
+
+.header-divider {
+  display: none;
+}
+
+/* Hero Area */
+
+/* Aside */
+
+aside .content-wrapper {
+  /* display: flex;
+  justify-content: space-between;
+  align-content: center; */ 
+  margin: 50px 0;
+}
+
+aside .content-wrapper .form-description,
+aside .content-wrapper .form {        
+  width:         
+  margin: 0;
+}
+
+/* Features */
+
+.features article {
+
+}
+
+/* Reviews */ 
+
+.reviews article {
+  /*display: flex;
+  justify-content: space-between; */
+}
+
+/* Footer */ 
+
+
+footer .content-wrapper {
+  width: ;
+  margin: 100px 0;
+}
+
+footer .contact {
+  margin-bottom: 0;
+}
+
+/* ==========================================================================
+   About Page
+   ========================================================================== */
+ 
+
+  .mission-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding-top: 20px;
+  }
+
+  .mission-content p {
+    width: 45%;
+  }
+
+  .contact-section .content-wrapper h2 {
+    width: 80%;
+  } 
+
+  .contact-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+  }
+}
+
+/* ==========================================================================
+   FAQ Page
+   ========================================================================== */
+
+.faq .content-wrapper {
+  justify-content: space-between;
+}
+
+.faq-content {
+  flex-basis: 45%;
+}
+
+.faq h2 {
+  width: 100%;
+}
+
+@media only screen and (min-width: 1200px) {
+/*Desktop styles here*/
+}
+
+
+
 
 @media only screen and (min-width: 35em) {
   /* Style adjustments for viewports that meet the condition */
