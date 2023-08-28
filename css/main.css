@@ -375,7 +375,7 @@ aside .content-wrapper {
 
 aside .content-wrapper .form-description,
 aside .content-wrapper .form {        
-  width:         
+  width:  ;       
   margin: 0;
 }
 
@@ -451,8 +451,69 @@ footer .contact {
 /*Desktop styles here*/
 }
 
+/* General styles */
+.content-wrapper {
+  max-width: 960px;
+  max-height: 600px;
+}
+
+/* Header */ 
+
+header {
+  padding: 15px 0; 
+}
 
 
+/* Hero */
+
+.hero-area h1 {
+  width: 80%;
+}
+
+/* Aside */ 
+aside .content-wrapper {
+  justify-content: space-around;
+
+}
+
+aside .content-wrapper .form-description,
+aside .content-wrapper .form {
+  width: 30%;
+}
+
+/* Features */ 
+
+.features .h2 {
+  width: 90%;
+}
+
+.features article {
+  flex-basis: 33%;
+}
+
+/* Reviews */ 
+
+.reviews article div {
+  width: 42%;
+}
+
+/* ==========================================================================
+   About Page
+   ========================================================================== */
+
+.mission h2,
+.contact-section .content-wrapper h2 {
+  width: 95%;
+
+}
+
+/* ==========================================================================
+   FAQ Page
+   ========================================================================== */
+
+   .faq h2 {
+    width: 100%;
+   }
 
 @media only screen and (min-width: 35em) {
   /* Style adjustments for viewports that meet the condition */
