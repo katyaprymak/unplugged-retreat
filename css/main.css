@@ -89,11 +89,37 @@ textarea {
 
 /* ---------------------- Base Header - Footer Styles ------------------------ */
 
+html {
+  font-size: 1rem;
+} 
+
 header {
   display: flex;
   justify-content: center;
   padding: 15px 0;
 } 
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1em;
+}
+
+h2 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1em;
+}
+
+h3, 
+h4 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1em;
+}
+
+a {
+     color: #e2e3ed;
+     text-decoration: none;
+}
+
 
 footer {
   display: flex;
